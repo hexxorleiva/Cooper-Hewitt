@@ -48,15 +48,15 @@ body.simple #horiz-menu ul.columns2, body.simple #horiz-menu .columns2 > .drop-t
 
 /* Horizontal Menu */
 #horiz-menu {background: url(../images/backgrounds/style2/main-trans.png) 0 0;}
-#horiz-menu li.root, #horiz-menu.splitmenu li {background: none;}
+#horiz-menu li.root, #horiz-menu.splitmenu li {background: none;background-color:#a9a9a9;}
 #horiz-menu li.root > .item, #horiz-menu li.root.active > .item, #horiz-menu li.root:hover > .item, #horiz-menu.splitmenu li .item {color: #333;background: url(../images/style2/main/horizmenu-div.png) 100% 50% no-repeat;}
 #horiz-menu li.root > .daddy span {background: url(../images/style2/main/horizmenu-bullet.png) 100% -272px no-repeat;}
 #horiz-menu li.root:hover, #horiz-menu li.root.active, #horiz-menu li.root.f-menuparent-itemfocus, #horiz-menu.splitmenu li:hover,  #horiz-menu.splitmenu li.sfHover, #horiz-menu.splitmenu li.active {background: none;}
 #horiz-menu li:hover > .item, #horiz-menu li.active > .item, #horiz-menu li.f-menuparent-itemfocus .item  {color: #333;}
 
 /* Menu Dropdowns */
-#horiz-menu li > .bullet {background: url(../images/style2/main/horizmenu-bullet.png) 5px -420px no-repeat;}
-#horiz-menu li:hover > .bullet, #horiz-menu li.f-menuparent-itemfocus .bullet, #horiz-menu li.active > .bullet {background: url(../images/style2/main/horizmenu-bullet.png) 5px -571px no-repeat;}
+#horiz-menu li > .bullet {background: url(../images/style2/main/horizmenu-bullet.png) 5px -420px no-repeat;background-color:#a9a9a9;}/*Affects the submenu's background color, IMPORTANT*/
+#horiz-menu li:hover > .bullet, #horiz-menu li.f-menuparent-itemfocus .bullet, #horiz-menu li.active > .bullet {background: url(../images/style2/main/horizmenu-bullet.png) 5px -571px no-repeat;background-color:#a9a9a9;}/*Affects the submenu's background color, IMPORTANT*/
 #horiz-menu li {background: url(../images/style2/main/drop-div.png) 50% 100% no-repeat;}
 #horiz-menu li:hover, #horiz-menu li.active, #horiz-menu li.f-menuparent-itemfocus {}
 #horiz-menu li > .daddy span {background: url(../images/style2/main/horizmenu-bullet.png) 100% -723px no-repeat;}

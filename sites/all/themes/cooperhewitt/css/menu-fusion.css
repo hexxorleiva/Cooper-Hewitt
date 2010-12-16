@@ -7,41 +7,41 @@
 /* Global */
 .menutop li {height: auto;margin: 0;padding: 0;position: relative;list-style: none;}
 .menutop li.root {margin: 0;padding: 0;}
-.menutop em {font-size:80%;font-weight:normal;display:block;font-style:normal;}
-.menutop li .item, .menutop li.active .item {display: block;margin: 0;text-decoration: none;float: none;width: auto;}
+.menutop em {font-size:80%;font-weight:normal;display:block;font-style:normal;} /*Affects the "description" text underneath menu links*/
+.menutop li .item, .menutop li.active .item {display: block;margin: 0;text-decoration: none;float: none;width: auto;}/*Top menu's horizontal width attributes*/
 .menutop li .fusion-submenu-wrapper {float: none;left: -999em;position: absolute;z-index: 500;}
 .menutop li:hover li ul, .menutop li.sfHover li ul {top: -999em;}
 .menutop li:hover ul, .menutop li.sfHover ul {top: 0;}
 
 /* Dropdowns */
-.menutop .subtext span {line-height: 18px;}
+.menutop .subtext span {line-height: 18px;} /*This will affect the sub-menu's background text's color, but not the entire sub-text menu*/
 .menutop .subtext em {line-height:13px;}
-.menutop ul {width:194px;padding:0 0 40px 13px;margin: 0;}
+.menutop ul {width:194px;padding:0 0 30px 13px;margin: 0;}/*Adjustment to background shadowing; affected the grey shape behind the drop-down menu*/
 .menutop .drop-top {width: 207px;height: 7px;}
 .menutop ul.columns2 {width:370px;}
 .menutop .columns2 > .drop-top {width:383px;}
 .menutop ul li {width:182px;}
 .menutop ul.columns2 li {width:178px;float:left;}
-.menutop li > .item {padding: 0;height: auto;line-height: 31px;display: block;font-size: 12px;}
-.menutop li > .bullet {padding: 3px 5px 5px 23px;}
+.menutop li > .item {padding: 0;height: auto;line-height: 30px;display: block;font-size: 12px;}/*Adjusts the interior text within the top-menu; position*/
+.menutop li > .bullet {padding: 3px 5px 5px 23px;}/*Affects sub-menu's padding of description text*/
 .menutop li > .item.image {padding:3px 10px 5px 5px;}
 .menutop li > .item img {float:left;margin: 6px 4px 0 5px;}
-.menutop li > .item span {display:block;padding: 0;width: 100%;}
+.menutop li > .item span {display:block;padding: 0;width: 100%;background-color:#A9A9A9;} /*Affects all non-expanding menu items, including sub-menu items that have no expansion*/
 .menutop li a.item {cursor:pointer;}
 .menutop li span.item {cursor:default;outline:none;}
 .menutop .level2 > .drop-top {display: none;}
 
 /* Root Items */
-body #horiz-menu ul.level1 {background:none;}
-.menutop {list-style: none;margin: 0;padding: 0;position: relative;line-height: 1.0;float: left;}
+body #horiz-menu ul.level1 {background:none;background-color:#A9A9A9;} /*This affects the entire menu back-ground color. IMPORTANT*/
+.menutop {list-style: none;margin: 0;padding: 0;position: relative;line-height: 1.0;float: left;background-color:#A9A9A9;}
 .menutop li.root {display: block;float: left;height: 47px;}
-.menutop li.root > .item {white-space: nowrap;display: block;float: left;font-weight: bold;font-size: 12px;text-decoration: none !important;z-index: 100;cursor: pointer;padding: 14px 12px 13px 12px;position:relative;margin: 0;outline: none;text-transform: uppercase;}
+.menutop li.root > .item {white-space: nowrap;display: block;float: left;font-weight: bold;font-size: 12px;text-decoration: none !important;z-index: 100;cursor: pointer;padding: 14px 20px 13px 20px;position:relative;margin: 0;outline: none;text-transform: uppercase;}/*Original Padding: 14px 12px 13px 12p : Changed how the top-menu spands across the top.*/
 .menutop li.root > .item span {display: block;padding: 0;margin: 0;outline: none;height:33px;}
 .menutop li.root > .item em {font-size:11px;font-weight:normal;display:block;font-style:normal;text-transform: lowercase;}
-.menutop li.root > .daddy span {padding-right: 14px;}
+.menutop li.root > .daddy span {padding-right: 14px;}/*This is the padding for all the links that have a drop-down menu*/
 
 /* No JS */
-.menutop li:hover > .fusion-submenu-wrapper {left:165px;top:-14px;}
+.menutop li:hover > .fusion-submenu-wrapper {left:165px;top:-14px;background-color:#A9A9A9;}
 .menutop li.root:hover > .fusion-submenu-wrapper {top:47px;left:-12px;}
 
 /* Fusion Pill */
