@@ -16,7 +16,7 @@
 /* Dropdowns */
 .menutop .subtext span {line-height: 18px;} /*This will affect the sub-menu's background text's color, but not the entire sub-text menu*/
 .menutop .subtext em {line-height:13px;}
-.menutop ul {width:194px;padding:0 0 30px 13px;margin: 0;}/*Adjustment to background shadowing; affected the grey shape behind the drop-down menu*/
+.menutop ul {width:194px;padding:0 0 30px 13px;margin: 0;color:#ffffff;}/*Adjustment to background shadowing; affected the grey shape behind the drop-down menu*/
 .menutop .drop-top {width: 207px;height: 7px;}
 .menutop ul.columns2 {width:370px;}
 .menutop .columns2 > .drop-top {width:383px;}
@@ -26,17 +26,17 @@
 .menutop li > .bullet {padding: 3px 5px 5px 23px;}/*Affects sub-menu's padding of description text*/
 .menutop li > .item.image {padding:3px 10px 5px 5px;}
 .menutop li > .item img {float:left;margin: 6px 4px 0 5px;}
-.menutop li > .item span {display:block;padding: 0;width: 100%;background-color:#A9A9A9;} /*Affects all non-expanding menu items, including sub-menu items that have no expansion*/
+.menutop li > .item span {display:block;padding: 0;width: 100%;background-color:#000000;color:#ffffff;} /*Affects all non-expanding menu items, including sub-menu items that have no expansion*/
 .menutop li a.item {cursor:pointer;}
 .menutop li span.item {cursor:default;outline:none;}
 .menutop .level2 > .drop-top {display: none;}
 
 /* Root Items */
-body #horiz-menu ul.level1 {background:none;background-color:#A9A9A9;} /*This affects the entire menu back-ground color. IMPORTANT*/
+body #horiz-menu ul.level1 {background:none;background-color:#000000;} /*This affects the entire menu back-ground color. IMPORTANT*/
 .menutop {list-style: none;margin: 0;padding: 0;position: relative;line-height: 1.0;float: left;background-color:#A9A9A9;}
 .menutop li.root {display: block;float: left;height: 47px;}
 .menutop li.root > .item {white-space: nowrap;display: block;float: left;font-weight: bold;font-size: 12px;text-decoration: none !important;z-index: 100;cursor: pointer;padding: 14px 20px 13px 20px;position:relative;margin: 0;outline: none;text-transform: uppercase;}/*Original Padding: 14px 12px 13px 12p : Changed how the top-menu spands across the top.*/
-.menutop li.root > .item span {display: block;padding: 0;margin: 0;outline: none;height:33px;}
+.menutop li.root > .item span {display: block;padding: 0;margin: 0;outline: none;height:21px;}/*This affects the spacing in between the sub-menu and the main navigation example: "Visit -> Plan Your Visit"*/
 .menutop li.root > .item em {font-size:11px;font-weight:normal;display:block;font-style:normal;text-transform: lowercase;}
 .menutop li.root > .daddy span {padding-right: 14px;}/*This is the padding for all the links that have a drop-down menu*/
 

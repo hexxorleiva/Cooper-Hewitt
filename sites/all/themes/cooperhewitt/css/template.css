@@ -5,7 +5,7 @@
  * @license		http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
  */
 /* This is the Main template logo, Edit this to match the width and height of your new logo image */
-#logo {width: 500px;height: 91px;}
+#logo {width: 500px;height: 60px;}
 
 /* Template Custom Fonts */
 @font-face {font-family: Bebas;src: url(../fonts/Bebas.eot);}
@@ -138,7 +138,7 @@ table.mainbody, table.blog {width: 100%;border: 0;padding: 0;}
 .hilite1 .module-inner, .hilite2 .module-inner, .inset .module-inner {padding: 15px;}
 .moduletable h3 {margin-top: 0;font-size: 125%;}
 h3.module-title {margin: 0;padding: 0 0 0 10px;line-height: 30px;font-weight: bold;}
-h3.module-title span, .contentheading span {padding: 0 8px 0 18px;margin-left: -10px;display: inline-block;line-height: 30px;margin-right: 2px;}
+h3.module-title span, .contentheading span {padding: 0 8px 0 18px;margin-left: -10px;display: inline-block;line-height: 30px;margin-right: 2px;}/*Affects the "Red Band" that is placed on the first word of the title of a post*/
 .inset h3.module-title {padding: 0 5px 0 30px;}
 .inset h3.module-title span {background: none;text-transform: none;padding: 0;margin: 0;}
 .spacer.w99 .block {width: 100%;}
